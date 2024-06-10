@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/* -------------------common css -------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Myriad Pro;
+}
+
+.clear {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+img {
+    border: none;
+}
+
+.js {
+    float: right;
+    margin-left: 20px;
+}
+
+.slides img {
+    width: 800px;
+    height: 380px;
+    margin-left: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ofh {
+    overflow: hidden;
+}
+
+.center {
+    text-align: center
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.pt30 {
+    padding-top: 30px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.em {
+    text-indent: 2em;
+}
+
+body {
+    background: url(../images/bj1.png) top center fixed no-repeat;
+}
+
+.con {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    min-height: 500px;
+    margin: auto;
+    background: url(../images/bj.png) top center repeat;
+}
+
+p {
+    line-height: 18px;
+}
+
+
+/*-------------head--------------*/
+
+.head {
+    width: 1200px;
+    height: 60px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+
+/*-------------nav--------------*/
+
+.nav {
+	width: 1000px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.nav ul {
+    padding-left: 30px;
+}
+
+.nav li {
+    float: left;
+    padding: 0px 40px;
+}
+
+.nav li a {
+    font-size: 24px;
+    color: #333;
+    line-height: 50px;
+}
+
+.nav li a:hover {
+    color: #800;
+    text-decoration: none;
+}
+
+.main {
+    width: 1200px;
+    height: auto;
+    min-height: 500px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.l1 {
+    margin-top: 50px;
+    width: 170px;
+    height: 166px;
+    border: 5px solid #ccc;
+}
+
+.l1 img {
+    width: 170px;
+    height: 166px;
+}
+
+.right {
+    width: 920px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.dm {
+    width: 900px;
+    height: 380px;
+    padding-top: 0px;
+}
+
+.right_nav {
+    width: 880px;
+    height: auto;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.right_nav p {
+    font-size: 16px;
+    text-indent: 2em;
+    color: #555;
+    line-height: 35px;
+    font-family: Myriad Pro
+}
+
+.right_nav li {
+    background: url(../images/d1.png) left top no-repeat;
+    padding-left: 20px;
+}
+
+.right_nav h2 {
+    font-size: 22px;
+    color: #333;
+    line-height: 44px;
+    font-family: Myriad Pro;
+}
+
+.right_nav li a {
+    font-size: 22px;
+    color: #a3a2a2;
+    text-decoration: underline;
+    line-height: 26px;
+    font-family: Myriad Pro;
+}
+
+.right_nav li a:hover {
+    font-size: 22px;
+    color: #800;
+}
+
+.Gallery_nav {
+    width: 880px;
+    height: auto;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.Gallery_nav h2 {
+    font-size: 50px;
+    color: #555;
+    line-height: 80px;
+    font-family: Myriad Pro;
+}
+
+.Gallery_nav li {
+    float: left;
+    margin: 10px;
+}
+
+.Gallery_nav li img {
+    width: 200px;
+    height: 150px;
+}
+
+.right_des {
+    width: 800px;
+    height: auto;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.right_des h1 {
+    font-size: 22px;
+    text-indent: 1em;
+    color: #333;
+    line-height: 56px;
+    font-family: Myriad Pro;
+}
+
+.right_des p {
+    font-size: 18px;
+    text-indent: 2em;
+    color: #555;
+    line-height: 26px;
+    font-family: Myriad Pro;
+}
+
+.foot {
+    width: 1180px;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+    background: #999;
+    background-color: rgba(50, 50, 50, 0.2);
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+}
